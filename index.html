@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tiendarappi</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body class="img container-fluid">
+    <header class="container">
+        <div class="row">
+            <h1 class="col-12 text-center">RAPPI DOMICILIO</h1>
+
+    
+        </div>
+    </header>
+    <section class="container">
+        <div class="row">
+            <div class="col-12">
+                <form class="form-group mt-5">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="inputEmail4">NOMBRE</label>
+                          <input type="text" class="form-control" id="inputEmail4">
+                        </div>
+                        <div class="form-group col-md-6">
+                          <label for="inputPassword4">APELLIDO</label>
+                          <input type="text" class="form-control" id="inputPassword4">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="inputAddress">DIRECCIoN</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="calle 11 # ...">
+                      </div>
+                      <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="inputCity">CIUDAD/MUNICIPIO</label>
+                          <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputState">ADICION</label>
+                            <input type="text" class="ml-5 mt-4" name="tortaopostre"  list="postre">
+                              <datalist id="postre">
+                                 <option value="POSTRE">POSTRE</option>
+                                 <option value="TORTA">TORTA</option>
+                              </datalist>
+                            
+                          </div>
+                        </div>
+                    </div>
+                          <button id="pedirdomicilio" type="submit" class="align-content:cente btn btn-primary ml-3 mt-2">COMPRAR</button>
+                      
+                  </form>
+                
+            </div>
+        </div>
+        
+
+    </section>
+    
+
+
+
+
+
+
+
+
+
+
+
+<script src="controlador.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
